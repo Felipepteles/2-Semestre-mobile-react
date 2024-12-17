@@ -1,0 +1,8 @@
+  //GET = READ
+  //POST = CREATE
+  //PUT = UPDATE
+  //DELETE 
+
+  //find = acha o primeiro valor procurado dentro do array
+  //filter = retonar um novo array dependendo da condição imposta, caso ele encontre um false ira retornar o novo array - o false
+  //map = retorna o array modificado

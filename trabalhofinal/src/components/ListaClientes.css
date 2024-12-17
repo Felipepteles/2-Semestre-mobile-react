@@ -1,0 +1,70 @@
+.subtitulo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  text-align: left;
+}
+
+tbody>tr:nth-child(odd) {
+  background-color: #D9D9D9;
+}
+
+tr>td {
+  padding: 5px 0;
+}
+
+tr>th {
+  padding: 5px 0;
+}
+
+.icones {
+  display: flex;
+  gap: 35px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.bolo {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 480px){
+  th{
+    padding: 10px 10px 0 10px !important;
+    font-size: 12px;
+  }
+  td{
+    padding: 10px 10px 5px 10px !important;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .icones{
+    gap: 20px !important;
+  }
+  .bolo{
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .icon{
+    width: 15px !important;
+    height: 15px !important;
+  }
+}

@@ -1,0 +1,30 @@
+.imgfooter {
+  text-align: center;
+  margin-top: 45px;
+  background-color: white;
+}
+
+.footer_flor{
+  background-color: white;
+}
+
+.imgfooter img {
+  width: 10vw;
+}
+
+@media screen and (max-width: 480px) {
+  .imgfooter>img{
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+
+  .footer_flor{
+    background-color: white;
+  }
+
+  .imgfooter img {
+    width: 30vw;
+  }
+
+}

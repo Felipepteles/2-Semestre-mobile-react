@@ -1,0 +1,44 @@
+.tela__texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.tela__texto>h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tela__texto>p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  width: 60vw;
+}
+
+@media screen and (max-width: 480px) {
+  
+  
+  .tela__texto>h3 {
+    font-size: 18px;
+  }
+
+  .tela__texto>p {
+    font-size: 15px;
+  }
+
+  .container{
+    gap: 5px;
+  }
+
+  .seta {
+    width: 30vw;
+  }
+}

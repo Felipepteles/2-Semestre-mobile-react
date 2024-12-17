@@ -1,0 +1,127 @@
+.react-responsive-modal-modal {
+  background-color: #232121 !important;
+  border-radius: 10px;
+  justify-content: center;
+}
+.container__cadastro__cliente {
+  width: 25rem;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+.container__cadastro__cliente label {
+  color: #d4af37;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titulo__bem__vindo {
+  color: #d4af37;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form__cadastro {
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2em 0 0 0;
+
+}
+.container_desc{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: 1.3rem;
+}
+.container_desc input{
+  padding: .3rem 2rem;
+}
+.container__nome {
+  display: flex;
+  flex-direction: column;
+}
+.nome__titulo__cliente {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 0.8em 0;
+}
+.nome__add {
+  height: 1.2em;
+  border-radius: 0.3em;
+}
+.container__dataNascimento {
+  display: flex;
+  flex-direction: column;
+}
+.dataNascimento__titulo {
+  margin: 0 0 0.8em 0;
+
+}
+.dataNascimento__add {
+  height: 1.5em;
+  width: 12.5em;
+  border-radius: .3em;
+}
+.container__email {
+  display: flex;
+  flex-direction: column;
+}
+.email__titulo__cliente {
+  margin: 0 0 0.8em 0;
+  
+}
+.email__add {
+  border-radius: 0.3em;
+  height: 1.2em;
+}
+.container__senha {
+  display: flex;
+  flex-direction: column;
+}
+.senha__titulo {
+  margin: 0 0 0.8em 0;
+
+}
+.senha__add {
+  border-radius: 0.3em;
+  height: 1.2em;
+}
+.container__inputs {
+  margin: .2em 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__inputs input{
+  padding: .5em;
+  border-radius: 0.3em;
+  border: none;
+  background-color: #d4af37;
+  color: #232121;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  
+}
+.botao__cadastrar {
+  margin: 0 0.5em 0 0;
+  height: 2.3em;
+}
+.botao__limpar {
+  margin: 0 0 0 0.5em;
+  height: 2.3em;
+}
+
+@media (max-width: 768px) {
+
+  .container__cadastro__cliente {
+    width: 20rem;
+    height: 20rem;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,51 @@
+
+.modal__flor .react-responsive-modal-modal {
+  border-radius: 30px;
+  background: #D9D9D9 !important;
+}
+
+.titulo {
+  color: #EF0E90;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.inputs>input {
+  border-radius: 30px;
+  background: #E6E6E6;
+  padding: 10px;
+  border: none;
+  width: 200px;
+}
+
+.inputs>input::placeholder {
+  color: black;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+
+}
+
+.botoes>button {
+  border-radius: 30px;
+  background: #E6E6E6;
+  border: none;
+  color: #EF0E90;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}

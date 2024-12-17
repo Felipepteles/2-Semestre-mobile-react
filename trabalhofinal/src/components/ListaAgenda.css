@@ -1,0 +1,45 @@
+.agenda {
+  padding: 50px 0;
+}
+
+.horarios {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+.agendado {
+  display: flex;
+  font-size: 26px;
+  gap: 20px;
+}
+
+.texto__agendado {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.horarios__botoes{
+  display: flex;
+  gap: 5px;
+}
+
+.desktop{
+  width: 1.8rem;
+}
+
+@media screen and (max-width: 480px){
+  .texto__agendado{
+    font-size: 22px;
+  }
+
+  .horarios{
+    font-size: 20px;
+  }
+
+  .desktop{
+    width: 25px;
+  }
+}

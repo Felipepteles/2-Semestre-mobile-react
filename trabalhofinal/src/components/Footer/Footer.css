@@ -1,0 +1,224 @@
+@media (min-width:1024px) {
+  .container__footer {
+      background: #232121;
+      /* width: 100vw; */
+      height: 12.125rem;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: spabe;
+    }
+  
+    .logo__footer {
+      width: 18.8125rem;
+      height: 7.9375rem;
+      display: flex;
+      margin: 0 0 0 1rem;
+    }
+  
+    .container__info__footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 0 0 2em;
+    }
+  .container__midias__infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+    .container__info__footer a {
+      text-decoration: none;
+      color: #D4AF37;
+    }
+    .container__info__footer a:hover{
+      text-decoration: underline #D4AF37;
+    }
+  
+    .container__info__footer__quem__somos {
+      width: 7.3125rem;
+      height: 1.1875rem;
+      flex-shrink: 0;
+      color: #D4AF37;
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: "Work Sans";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
+    }
+  
+    .container__info__footer__suporte {
+      width: 7.3125rem;
+      height: 1.1875rem;
+      flex-shrink: 0;
+      color: #D4AF37;
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: "Work Sans";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
+    }
+  
+    .container__info__footer__politicas {
+      width: 13.125rem;
+      height: 1.1875rem;
+      flex-shrink: 0;
+      color: #D4AF37;
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: "Work Sans";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
+    }
+  
+    .container__info__footer__clientes {
+      width: 8rem;
+      height: 1.1875rem;
+      flex-shrink: 0;
+      color: #D4AF37;
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: "Work Sans";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 125%;
+    }
+  
+    .texto__comercial {
+      color: #D4AF37;
+      text-decoration: none;
+      margin: 0 0 0 12em;
+    }
+  
+    .texto__comercial:hover {
+      text-decoration: underline #D4AF37;
+    }
+  
+    .container__midias {
+      color: #D4AF37;
+      display: flex;
+      margin: 0 0 0 14rem;
+      align-items: center;
+    }
+  
+    .container__midias img {
+      margin: 0 1em;
+    }
+    
+    .container__midias img:hover {
+      cursor: pointer;
+    }
+    .wpp{
+      width: 2em;
+      height: 2.1em;
+    }
+    .insta{
+      width: 2em;
+      height: 2.1em;
+    }
+    .fb{
+      width: 2.1em;
+      height: 2.2em;
+    }
+    .x{
+      width: 2.2em;
+      height: 2.3em;
+    }
+    .linkedin{
+      width: 2.2em;
+      height: 2.3em;
+    }
+    .git{
+      width: 2.2em;
+      height: 2.4em;
+    }
+}
+  
+  
+  @media (max-width: 768px) {
+  
+  
+      footer{
+          background-color: #232121;
+        }
+        .container__footer {
+          height: auto;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;    
+        }
+
+        .imagem__footer{
+          display: flex;
+          justify-content: center;
+        }
+      
+        .logo__footer {
+          width: 15em;
+          height: 7em;
+          margin: -2em 4em -3em 4.5em;
+          padding: 1rem 0 2.5rem 0;
+
+        }
+      
+        .container__info__footer {
+          margin: 20px 0;
+        }
+      
+        .container__info__footer a {
+          font-size: .8em;
+          margin: .75em 1em; 
+          text-decoration: none;
+          color: #D4AF37;
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .texto__comercial {
+          margin: 20px 0;
+          text-align: center;
+          display: none;
+        }
+        .container__midias__infos{
+          display: flex;
+          justify-content: space-between;
+        }
+        .container__midias {
+          margin: .8em .5em 0 0;
+          justify-content: center;
+          align-items: center;
+          padding: 0 0 1rem;
+        }
+      
+        .container__midias img {
+          margin: .5em 1em;
+        }
+        .wpp{
+          width: 2em;
+          height: 2.1em;
+        }
+        .insta{
+          width: 2em;
+          height: 2.1em;
+        }
+        .fb{
+          width: 2.1em;
+          height: 2.2em;
+        }
+        .x{
+          width: 2em;
+          height: 2.3em;
+        }
+        .linkedin{
+          width: 2em;
+          height: 2.3em;
+        }
+        .git{
+          width: 2.1em;
+          height: 2.4em;
+        }
+  }
